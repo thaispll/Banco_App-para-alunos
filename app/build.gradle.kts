@@ -5,13 +5,12 @@ plugins {
 
 android {
     namespace = "br.com.codeschool.bancoapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "br.com.codeschool.bancoapp"
-        minSdk = 24
-        targetSdk = 34
-        versionCode = 1
+        minSdk = 35
+        targetSdk = 35
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -33,6 +32,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildToolsVersion = "35.0.0"
 }
 
 dependencies {
